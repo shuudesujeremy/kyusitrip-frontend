@@ -7,7 +7,6 @@ const ReportList = (props) =>  {
 
   const {
     reports,
-    searchQuery,
     selectHindranceCenter
   } = props
 

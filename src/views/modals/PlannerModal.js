@@ -143,7 +143,6 @@ const RouteModal = (props) => {
 
   /* VIRTUAL KEYBOARD FUNCTIONS */
   const keyboard = useRef();
-  const [layout, setLayout] = useState("default");
 
   const onChangeOrigin = input => {
     originInputRef.current.value = input;

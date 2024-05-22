@@ -86,7 +86,7 @@ const Map = (props) => {
         console.log(error)
       })
     })
-  }, [socket])
+  }, [socket]);
 
 
 
