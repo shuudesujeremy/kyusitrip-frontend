@@ -259,7 +259,7 @@ const RouteModal = (props) => {
                 <div className="virtual-keyboard">
                   <Keyboard 
                     keyboardRef={r => (keyboard.current = r)}
-                    layoutName={layout}
+                    layoutName={"default"}
                     layout={{
                       default: [
                         "1 2 3 4 5 6 7 8 9 0 {bksp}",
@@ -310,7 +310,7 @@ const RouteModal = (props) => {
                 <div className="virtual-keyboard">
                   <Keyboard 
                     keyboardRef={r => (keyboard.current = r)}
-                    layoutName={layout}
+                    layoutName={"default"}
                     layout={{
                       default: [
                         "1 2 3 4 5 6 7 8 9 0 {bksp}",

@@ -17,11 +17,14 @@ import repairIcon from '../../assets/img/road-repair-icon.svg'
 import floodIcon from '../../assets/img/flood-icon.svg'
 import closureIcon from '../../assets/img/closure-icon.svg'
 import io from "socket.io-client"
-const socket = io.connect("http://localhost:3001")
+
 
 
 
 const Map = (props) => {
+
+  const socket = io.connect("http://localhost:3001")
+
 
   const {
     mapOptions,
@@ -86,7 +89,7 @@ const Map = (props) => {
         console.log(error)
       })
     })
-  }, [socket]);
+  }, [socket])
 
 
 
